@@ -65,3 +65,8 @@ margin: 0 auto;
 .bg-danger{
     background-color: #E19BA2 !important ;
 }
+@media (max-width: 991px) {
+  .button-text {
+      display: none;
+  }
+}
