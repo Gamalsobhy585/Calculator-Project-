@@ -1,0 +1,67 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+body {
+    background-color: #121822;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover; 
+}
+
+.output {
+
+border-radius: 10px;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+padding: 20px;
+max-width: 400px;
+margin: 0 auto;
+}
+.btn-custom i {
+    margin: 0 5px;
+}
+
+.button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(-50%, -50%);
+    padding: 0 0px; 
+}
+
+.button-container a {
+    margin: 10px;
+}
+.homemade-apple-regular {
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .next-prob-button{
+    background-color: #06EE82;
+    color: #050000;
+  }
+  .next-prob-button:hover{
+    background-color: #06EE82;
+    color: #050000;
+  }
+  .main-page-button{
+    background-color: #9BBAE9;
+    color: #050000;
+  }
+  
+  .main-page-button:hover{
+    background-color: #9BBAE9;
+    color: #050000;
+  }
+.bg-danger{
+    background-color: #E19BA2 !important ;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 3</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container w-50 bg-danger rounded-3 py-4 my-5">
+        <h3 class="fw-bold my-4 text-black text-center">
+            insert 2 integers then  I will  print the max
+        </h3>
+        
+        <div id="problem-container" class="d-flex align-items-center justify-content-center">
+            <form id="formThree" class="text-center">
+                <div class="mb-3">
+                    <input type="number" id="input1" class="form-control mb-2" placeholder="Enter first number" required>
+                </div>
+                <div class="mb-3">
+                    <input type="number" id="input2" class="form-control mb-2" placeholder="Enter second number" required>
+                </div>
+                <button type="submit" class="btn btn-success w-100">Get the Max</button>
+            </form>
+        </div>
+        
+        <div class="mt-2 text-black text-center" id="max"></div>
+    </div>
+
+    <div class="button-container text-center mt-3">
+        <a class="btn btn-primary" href="./index.html">
+            <i class="fas fa-arrow-left"></i> Go to Main Page
+        </a>
+        <a class="btn btn-success" href="./problem4.html">
+            Go to Next Problem <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="./js/p3.js"></script>
+</body>
+</html>

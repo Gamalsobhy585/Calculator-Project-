@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 15</title>
+    <link rel="shortcut icon" href="./images.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container w-50 bg-danger rounded-3 py-4 my-5">
+        <h3 class="fw-bold my-4 text-black text-center">
+           Insert marks of five subjects Physics, Chemistry, Biology, Mathematics, and Computer. Find percentage and grade.
+        </h3>
+        
+        <div id="problem-Fifteen-container" class="d-flex align-items-center justify-content-center">
+            <form action="" id="formFifteen" class="text-center">
+                <div class="row mb-3">
+                    <div class="col-4">
+                        <input required class="form-control my-2" type="number" id="subjectOne" max="100" placeholder="Enter Physics Mark">
+                    </div>
+                    <div class="col-4">
+                        <input required class="form-control my-2" type="number" id="subjectTwo" max="100" placeholder="Enter Chemistry Mark">
+                    </div>
+                    <div class="col-4">
+                        <input required class="form-control my-2" type="number" id="subjectThree" max="100" placeholder="Enter Biology Mark">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-4">
+                        <input required class="form-control my-2" type="number" id="subjectFour" max="100" placeholder="Enter Mathematics Mark">
+                    </div>
+                    <div class="col-4">
+                        <input required class="form-control my-2" type="number" id="subjectFive" max="100" placeholder="Enter Computer Mark">
+                    </div>
+                </div>
+                <input required type="submit" class="btn btn-success  mt-3" value="Calculate">
+            </form>
+            
+        </div>
+        
+        <div class="mt-2 text-black text-center" id="outputFifteen"></div>
+    </div>
+
+    <div class="button-container text-center mt-3">
+        <a class="btn btn-primary" href="./index.html">
+            <i class="fas fa-arrow-left"></i> Go to Main Page
+        </a>
+        <a class="btn btn-success" href="./problem16.html">
+            Go to Next Problem <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+    
+    <script src="./js/p15.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+</body>
+</html>
