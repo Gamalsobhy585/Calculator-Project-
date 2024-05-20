@@ -69,4 +69,9 @@ margin: 0 auto;
   .button-text {
       display: none;
   }
+  .bg-danger{
+    background-color: #E19BA2 !important ;
+    width: 70% !important;
+}
+
 }
